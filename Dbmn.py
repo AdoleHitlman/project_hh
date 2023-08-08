@@ -2,6 +2,8 @@ import psycopg2
 import requests
 
 
+
+
 class DBManager:
     def __init__(self, host, port, dbname, user, password):
         self.host = host
